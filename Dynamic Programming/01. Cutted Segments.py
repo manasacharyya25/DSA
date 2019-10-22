@@ -1,3 +1,7 @@
+""" Geeksforgeeks Practice Problem:
+    https://practice.geeksforgeeks.org/problems/cutted-segments/0
+"""
+
 class Solution:
     @staticmethod
     def get_max_cut_segments(n, arr):
