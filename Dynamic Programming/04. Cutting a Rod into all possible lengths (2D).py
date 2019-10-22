@@ -1,6 +1,3 @@
-"""NOT SOLVED
-"""
-
 class Solution:
     @staticmethod
     def max_selling_price(length_of_rod, price_of_each_length):
