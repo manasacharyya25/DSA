@@ -21,7 +21,7 @@ class TreeTraversal:
             if curr.right:
                 stack.append(curr.right)
             if curr.left:
-                stack.push(curr.left)
+                stack.append(curr.left)
 
     @staticmethod
     def Inorder(root):
