@@ -9,15 +9,20 @@ class Solution:
 
     @staticmethod
     def get_kth_min(root: Node, k:int):
-        if not root:
-            return
-        Solution.get_kth_min(root.left, k)
+        """ 
+           Maintain an array of size k
+            When root.left is None, i+1 element is the kth min
+        """
+        arr = [0 for i in range(k)]
+        index = 0
 
-        Solution.number_of_nodes_visited += 1
-        if Solution.number_of_nodes_visited == k:
-            print(root.data)
-        Solution.get_kth_min(root.right, k)
+        while root:
+            arr[index] = root.data
+            index = (index + 1) % k
 
+            root = root.left
+
+        return arr[index] #since index is already incremented in loop
 
 if __name__ == "__main__":
     root = Node(10)
