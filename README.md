@@ -55,7 +55,7 @@ You could also use VS Code with Python Extension to run and ***debug*** the Code
 
 <strong>Manas Acharyya</strong>
 
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/manasacharyya25">linkedin.com/in/manasacharyya25</a></p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/manasacharyya25" target="_blank">linkedin.com/in/manasacharyya25</a></p>
 
 
   
